@@ -1,0 +1,26 @@
+[package]
+name = "rust-llm-rag"
+version = "0.1.0"
+edition = "2021"
+default-run = "client"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+qdrant-client = "1.8"
+tokio = { version = "1", features = ["full"] }
+config = "0.14"
+axum = "0.7"
+serde = { version = "1.0", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+tower-http = { version = "0.5", features = ["full"] }
+tower = { version = "0.4", features = ["full"] }
+ollama-rs = "0.1"
+async-trait = "0.1"
+serde_json = "1.0"
+uuid = { version = "1.8", features = ["v4", "fast-rng", "macro-diagnostics"] }
+socketioxide = "0.12"
+
+mongodb = "2.8"
+chrono = { version = "0.4", features = ["serde"] }

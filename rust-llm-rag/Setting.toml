@@ -1,0 +1,15 @@
+[server]
+port = 8080
+timeout = 30
+max_payload = 10 # MiB
+max_buffer_size = 10 # MiB
+
+[vector_db]
+host = "localhost"
+port = 6334
+
+[llm]
+model = "llama2"
+
+[mongodb]
+uri = "mongodb://localhost:27017"
