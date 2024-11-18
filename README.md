@@ -112,12 +112,10 @@ A sophisticated Retrieval-Augmented Generation (RAG) web application inspired by
 
 ## ⚙️ Configuration
 
-Create a `.env` file with the following variables:
+Create a `.environment.local` file with the following variables:
 
 ```env
-MONGODB_URI=your_mongodb_uri
-QDRANT_URL=your_qdrant_url
-LLAMA2_MODEL_PATH=path_to_model
+NEXT_PUBLIC_SOCKET_URL=your_backend_localhost
 ```
 
 ## 🤝 Contributing
