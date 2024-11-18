@@ -68,14 +68,14 @@ A sophisticated Retrieval-Augmented Generation (RAG) web application inspired by
 
 2. **Backend Setup** (Similar to rust-llm-rag)
    ```bash
-   cd backend
+   cd rust-llm-rag
    cargo build
    cargo run
    ```
 
 3. **Frontend Setup** [New Addition]
    ```bash
-   cd frontend
+   cd llm-chat-frontend
    npm install
    npm run dev
    ```
