@@ -1,10 +1,10 @@
 # RAG Web Application
 
-A sophisticated Retrieval-Augmented Generation (RAG) web application that combines Rust backend with Llama2 LLM, Next.js frontend, and advanced document processing techniques.
+A sophisticated Retrieval-Augmented Generation (RAG) web application inspired by [rust-llm-rag](https://github.com/Rayato159/rust-llm-rag), enhanced with additional features and a modern web interface.
 
 ## 🚀 Features
 
-- **RAG Implementation**
+- **RAG Implementation** (Based on rust-llm-rag architecture)
   - Advanced relevance scoring for accurate document retrieval
   - Smart document chunking for optimal processing
   - Rich metadata integration with stored documents
@@ -15,8 +15,9 @@ A sophisticated Retrieval-Augmented Generation (RAG) web application that combin
   - High-performance document processing
   - RESTful API endpoints
   - Efficient memory management
+  - Inspired by rust-llm-rag's robust backend architecture
 
-- **Frontend (Next.js 13+)**
+- **Frontend (Next.js 13+)** [Extended Feature]
   - App Router architecture
   - TypeScript implementation
   - Modern responsive UI
@@ -27,27 +28,27 @@ A sophisticated Retrieval-Augmented Generation (RAG) web application that combin
     - User queries
     - Historical prompts
     - Processing results
-  - Qdrant for vector storage:
+  - Qdrant for vector storage (Following rust-llm-rag's approach):
     - Document embeddings
     - Semantic search capabilities
 
 ## 🛠️ Technical Stack
 
-### Backend
+### Backend (Based on rust-llm-rag)
 - Rust
 - Llama2 LLM
 - RESTful API
 - Document processing pipeline
 
-### Frontend
+### Frontend [New Addition]
 - Next.js 13+ (App Router)
 - TypeScript
 - TailwindCSS
 - React Query
 
 ### Databases
-- MongoDB
-- Qdrant Vector Database
+- MongoDB (Extended storage solution)
+- Qdrant Vector Database (Following rust-llm-rag implementation)
 
 ## 📋 Prerequisites
 
@@ -65,14 +66,14 @@ A sophisticated Retrieval-Augmented Generation (RAG) web application that combin
    cd RAG-web
    ```
 
-2. **Backend Setup**
+2. **Backend Setup** (Similar to rust-llm-rag)
    ```bash
    cd backend
    cargo build
    cargo run
    ```
 
-3. **Frontend Setup**
+3. **Frontend Setup** [New Addition]
    ```bash
    cd frontend
    npm install
@@ -81,12 +82,12 @@ A sophisticated Retrieval-Augmented Generation (RAG) web application that combin
 
 4. **Database Setup**
    - Configure MongoDB connection
-   - Set up Qdrant instance
+   - Set up Qdrant instance (Following rust-llm-rag configuration)
    - Initialize vector collections
 
 ## 🏗️ Architecture
 
-### RAG Pipeline
+### RAG Pipeline (Enhanced from rust-llm-rag)
 1. Document Processing
    - Chunking
    - Metadata extraction
@@ -133,10 +134,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## ✨ Acknowledgments
 
+- [rust-llm-rag](https://github.com/Rayato159/rust-llm-rag) project for the foundational RAG implementation and inspiration
 - Llama2 team for the language model
 - Rust community for backend support
 - Next.js team for frontend framework
 - MongoDB and Qdrant teams for database solutions
 
 ---
-**Note**: This is an active project under development. Features and documentation may be updated frequently.
+**Note**: This project is built upon and inspired by the [rust-llm-rag](https://github.com/Rayato159/rust-llm-rag) project, with additional features and enhancements. We acknowledge and appreciate the original implementation that made this project possible.
