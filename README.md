@@ -112,7 +112,7 @@ A sophisticated Retrieval-Augmented Generation (RAG) web application inspired by
 
 ## ⚙️ Configuration
 
-Create a `.environment.local` file with the following variables:
+Create a `.env.local` file with the following variables:
 
 ```env
 NEXT_PUBLIC_SOCKET_URL=your_backend_localhost
